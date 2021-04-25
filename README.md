@@ -1,1 +1,1 @@
-Feita a criação do layout HTML e CSS da base de conhecimento, utilizando script para fazer o dropdown dos tópicos.
+Feita a criação do layout HTML e CSS da base de conhecimento, utilizando script para fazer o dropdown dos tópicos, esquelento pronto, replicar funções de acordo com a demanda
