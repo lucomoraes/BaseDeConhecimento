@@ -24,7 +24,13 @@
     <article>
         <a href="#" onclick="visibilidadeTopico('topico1')">&#xbb; Como alterar a ordem das opções de login no portal de exames.</a>
         <div class="topico" id="topico1">
-            <p>Caso o cliente deseje alterar a ordem de login (paciente, executante e solicitante) entrar no caminho: <strong>C:\mdmv\Portal\Client\app\view\partial</strong> e e editar o arquivo <strong>"loginForm.html"</strong> da seguinte forma:</p>
+            <p>Caso o cliente deseje alterar a ordem de login (paciente, executante e solicitante) entrar no caminho: <strong>C:\mdmv\Portal\Client\app\view\partial</strong> e e editar o arquivo <strong>"loginForm.html"</strong>, inserindo o parâmetro: <strong>ng-init="usuario.TipoUsuario = 3"</strong> da seguinte forma:</p>
+            <br>
+            <p>OBS: Inserir valores de acordo com o tipo de usuário:</p>
+            <br>
+            <p>"1" - Médico Solicitante</p>
+            <p>"2" - Médico Executante</p>
+            <p>"3" - Paciente</p>
             <img src="img/ordemlogin.gif" alt="">
         </div>
     </article>  
