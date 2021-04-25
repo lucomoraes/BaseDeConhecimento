@@ -7,12 +7,12 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
     background-color: #005b96;
     padding: 25px 0;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
+    font-weight: bold;
 }
 
 nav span {
