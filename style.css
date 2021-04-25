@@ -6,10 +6,6 @@ body {
     background-color: #dadada;
 }
 
-#logo_mv {
-    width: 100px;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
