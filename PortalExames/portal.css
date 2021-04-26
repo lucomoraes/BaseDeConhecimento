@@ -84,10 +84,8 @@ article a {
     text-decoration: none;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+#portal_footer {
+    margin-top: 67vh;
     width: 100%;
     background-color: #005b96;
     padding: 15px 0;
