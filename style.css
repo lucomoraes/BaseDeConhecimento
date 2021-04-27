@@ -7,6 +7,8 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     background-color: #005b96;
     padding: 25px 0;
@@ -29,6 +31,54 @@ ul li a {
     color: #FFFFFF;
     margin-left: 20px;
     text-transform: uppercase;
+}
+
+#menu_button {
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    transition: 0.8s;
+}
+
+#menu_button:hover {
+    background-color: black;
+    border-color: #000000;
+}
+
+.alert {   
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin: 10px auto;
+    width: 50%;    
+  }
+  
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 23px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+
+.closebtn:hover {
+  color: black;
+}
+.alert p {
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
 }
 
 .container-sistemas {
