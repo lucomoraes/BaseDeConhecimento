@@ -38,13 +38,11 @@ ul li a {
     transition: 0.8s;
 }
 
-
 #menu_button:hover {
     background-color: black;
     border-color: #000000;
     color: #FFFFFF;
 }
-
 
 #title {
     padding: 50px 50px 20px 50px;
