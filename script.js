@@ -6,6 +6,3 @@ function visibilidadeTopico(id) {
         elemento.style.display = "block";
     }
 }
-
-
-
