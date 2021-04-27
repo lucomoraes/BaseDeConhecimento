@@ -75,6 +75,7 @@ ul li a {
 .closebtn:hover {
   color: black;
 }
+
 .alert p {
   font-size: 15px;
   font-family: 'Noto Sans JP', sans-serif;
@@ -104,7 +105,6 @@ ul li a {
     width: 300px;
     height: 400px;
     margin: 40px 20px;
-    border-radius: 20px;
     background-image: linear-gradient(to right top, #051937, #004167, #006e8c, #009c9d, #19ca99); 
     -webkit-box-shadow: 9px 12px 15px 6px rgba(0,0,0,0.65); 
     box-shadow: 9px 12px 15px 6px rgba(0,0,0,0.65);
