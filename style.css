@@ -127,9 +127,9 @@ ul li a {
 }
 
 .container-sistemas button:hover {
-    background-color: #FFFFFF;
-    border-color: #000000;
-    color: #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 footer {
