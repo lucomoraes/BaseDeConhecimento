@@ -57,6 +57,7 @@ article {
 .topico {
     padding: 20px 50px;
     display: none;
+    margin-left: 25px;
 }
 
 .topico p {
@@ -75,7 +76,7 @@ strong {
 }
 
 article a {
-    color: #003366;
+    color: #005b96;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     padding: 0 50px;

@@ -113,6 +113,7 @@ ul li a {
 .container-sistemas button {
     margin-top: 50px;
     border-radius: 10px;
+    font-weight: bold;
     color: white;
     border: 1px solid #FFFFFF;
     width: 90px;
@@ -123,10 +124,11 @@ ul li a {
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .container-sistemas button:hover {
+    border: none;
     background-color: #000000;
     color: #FFFFFF;
     font-weight: bold;
